@@ -1,5 +1,5 @@
 # Router.py
-from ..site.Routes.AllRoutes import get_routes
+from .Site.Routes.AllRoutes import get_routes
 
 class Router:
     def __init__(self):

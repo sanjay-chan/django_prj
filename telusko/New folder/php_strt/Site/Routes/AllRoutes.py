@@ -1,5 +1,5 @@
-# AllRoutes.py
-from .TaskRouter import TaskRouter
+ # AllRoutes.py
+from Site.Routes.TaskRouter import TaskRouter
 
 def get_routes():
     task_router = TaskRouter()
